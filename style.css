@@ -127,4 +127,26 @@
  /************************************************
      SOLUZIONE RESPONSIVE
   ************************************************/
- 
+
+/*    TABLET      */
+@media screen and (max-width: 768px){ 
+
+    .container{
+        width: 768px;
+    }
+
+    .lessons .col{
+        width: 50vw;
+    }
+
+    .steps .col{
+        width: calc(100vw/ 3);
+    }
+
+    /*    MOBILE      */
+
+@media screen and (max-width: 480px) {
+    
+}
+
+}
