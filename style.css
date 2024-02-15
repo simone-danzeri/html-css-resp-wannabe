@@ -132,15 +132,15 @@
 @media screen and (max-width: 768px){ 
 
     .container{
-        width: 768px;
+        width: 100%;
     }
 
     .lessons .col{
-        width: 50vw;
+        width: 50%;
     }
 
     .steps .col{
-        width: calc(100vw/ 3);
+        width: calc(100%/ 3);
     }
 }
 
@@ -148,7 +148,7 @@
 
 @media screen and (max-width: 480px) {
     .container {
-        max-width: 480px;
+        width: 100%;
     }
 
     .lessons .row{
@@ -157,7 +157,7 @@
     }
 
     .lessons .col{
-        width: 90vw;
+        width: 90%;
     }
 
     .lessons .card:last-child{
@@ -170,7 +170,7 @@
     }
 
     .steps .col{
-        width: 90vw;
+        width: 90%;
     }
     
     .steps .col .card{
